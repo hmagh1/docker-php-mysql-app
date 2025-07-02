@@ -5,4 +5,4 @@ if ($mysqli->connect_error) {
     echo json_encode(["error" => "Erreur de connexion DB"]);
     exit;
 }
-?>
+
